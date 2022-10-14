@@ -1,0 +1,6 @@
+rootProject.name = 'exercise'
+include 'lectcode'
+include 'lectcode:sort'
+findProject(':lectcode:sort')?.name = 'sort'
+include 'thread'
+
