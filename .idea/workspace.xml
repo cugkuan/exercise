@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/InternalTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/Test.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/ThreadPool.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/imp/BasicThreadPool.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/imp/DefaultThreadFactory.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/imp/DenyPolicyImp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/imp/LinkedRunnableQueue.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_9/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_9/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_9/Parent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_9/Single.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/thread/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_3/Join.kt" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_3/Join.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +33,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -62,13 +73,13 @@
       <recent name="$PROJECT_DIR$/lectcode/src/main/java/org/brightk" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.JoinKt">
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.QuickSort" />
-      <module name="exercise.lectcode.sort.main" />
+  <component name="RunManager" selected="Application.Single">
+    <configuration name="Single" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.chapter_9.Single" />
+      <module name="exercise.thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.*" />
+          <option name="PATTERN" value="thread.chapter_9.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,15 +87,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InterruptKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_3.InterruptKt" />
+    <configuration name="EventQueue2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.chapter_5.EventQueue2Kt" />
       <module name="exercise.thread.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_3.JoinKt" />
+    <configuration name="LockKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LockKt" />
+      <module name="exercise.thread.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.chapter_9.MainKt" />
+      <module name="exercise.thread.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.chapter_8.TestKt" />
       <module name="exercise.thread.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -92,9 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.JoinKt" />
-        <item itemvalue="Kotlin.InterruptKt" />
-        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.Single" />
+        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Kotlin.TestKt" />
+        <item itemvalue="Kotlin.LockKt" />
+        <item itemvalue="Kotlin.EventQueue2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +136,8 @@
       <workItem from="1665579499705" duration="1539000" />
       <workItem from="1665706215755" duration="14000" />
       <workItem from="1665706240699" duration="6221000" />
-      <workItem from="1665739031079" duration="2367000" />
+      <workItem from="1665739031079" duration="28424000" />
+      <workItem from="1666144817642" duration="2848000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
@@ -118,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665714038221</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="join 例子加强">
+      <created>1665741660406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665741660406</updated>
+    </task>
+    <task id="LOCAL-00003" summary="join 例子加强">
+      <created>1665819774513</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1665819774513</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +168,48 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加 readMe 文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="添加 readMe 文件" />
+    <MESSAGE value="join 例子加强" />
+    <option name="LAST_COMMIT_MESSAGE" value="join 例子加强" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt</url>
+          <line>48</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt</url>
+          <line>53</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt</url>
+          <line>54</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt</url>
+          <line>47</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt</url>
+          <line>57</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt</url>
+          <line>58</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt</url>
+          <line>89</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
