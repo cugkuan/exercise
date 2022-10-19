@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/InternalTask.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/Test.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/ThreadPool.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/imp/BasicThreadPool.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/imp/DefaultThreadFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/imp/DenyPolicyImp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_8/imp/LinkedRunnableQueue.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_9/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_9/Main.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_9/Parent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_9/Single.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_12/VolatileFoo.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -73,7 +62,7 @@
       <recent name="$PROJECT_DIR$/lectcode/src/main/java/org/brightk" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Single">
+  <component name="RunManager" selected="Kotlin.VolatileFooKt">
     <configuration name="Single" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.chapter_9.Single" />
       <module name="exercise.thread.main" />
@@ -83,13 +72,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EventQueue2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_5.EventQueue2Kt" />
-      <module name="exercise.thread.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,13 +97,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VolatileFooKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.chapter_12.VolatileFooKt" />
+      <module name="exercise.thread.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.VolatileFooKt" />
         <item itemvalue="Application.Single" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Kotlin.LockKt" />
-        <item itemvalue="Kotlin.EventQueue2Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +126,7 @@
       <workItem from="1665706215755" duration="14000" />
       <workItem from="1665706240699" duration="6221000" />
       <workItem from="1665739031079" duration="28424000" />
-      <workItem from="1666144817642" duration="2848000" />
+      <workItem from="1666144817642" duration="4775000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
