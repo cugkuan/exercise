@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_12/VolatileFoo.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_16/Flight.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +62,7 @@
       <recent name="$PROJECT_DIR$/lectcode/src/main/java/org/brightk" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.VolatileFooKt">
+  <component name="RunManager" selected="Kotlin.FlightKt">
     <configuration name="Single" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.chapter_9.Single" />
       <module name="exercise.thread.main" />
@@ -76,8 +76,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LockKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LockKt" />
+    <configuration name="FlightKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.chapter_16.FlightKt" />
       <module name="exercise.thread.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,11 +106,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.FlightKt" />
         <item itemvalue="Kotlin.VolatileFooKt" />
         <item itemvalue="Application.Single" />
         <item itemvalue="Kotlin.MainKt" />
         <item itemvalue="Kotlin.TestKt" />
-        <item itemvalue="Kotlin.LockKt" />
       </list>
     </recent_temporary>
   </component>
@@ -126,7 +126,7 @@
       <workItem from="1665706215755" duration="14000" />
       <workItem from="1665706240699" duration="6221000" />
       <workItem from="1665739031079" duration="28424000" />
-      <workItem from="1666144817642" duration="4775000" />
+      <workItem from="1666144817642" duration="7223000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
