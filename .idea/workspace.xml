@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_23/CountDownLatch.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadWriteLockImp.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/WriteLock.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/use/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_23/CountDownLatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/Lock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadWriteLock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/use/ShareData.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/use/ShareData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/use/Test.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Kotlin Object" />
         <option value="Kotlin Class" />
       </list>
     </option>
@@ -63,7 +70,7 @@
       <recent name="$PROJECT_DIR$/lectcode/src/main/java/org/brightk" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.CountDownLatchKt">
+  <component name="RunManager" selected="Kotlin.TestKt">
     <configuration name="Single" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.chapter_9.Single" />
       <module name="exercise.thread.main" />
@@ -91,8 +98,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_9.MainKt" />
+    <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.chapter_17.use.TestKt" />
       <module name="exercise.thread.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -107,11 +114,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Kotlin.CountDownLatchKt" />
         <item itemvalue="Kotlin.FlightKt" />
         <item itemvalue="Kotlin.VolatileFooKt" />
         <item itemvalue="Application.Single" />
-        <item itemvalue="Kotlin.MainKt" />
       </list>
     </recent_temporary>
   </component>
@@ -127,7 +134,7 @@
       <workItem from="1665706215755" duration="14000" />
       <workItem from="1665706240699" duration="6221000" />
       <workItem from="1665739031079" duration="28424000" />
-      <workItem from="1666144817642" duration="12409000" />
+      <workItem from="1666144817642" duration="20993000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
