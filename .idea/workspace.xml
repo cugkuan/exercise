@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadWriteLockImp.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/WriteLock.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/use/Test.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/Lock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadWriteLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/ReadWriteLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/use/ShareData.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/use/ShareData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_17/use/Test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Looper.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Looper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/MessageQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/MessageQueue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,23 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/kuan/Code/Exercise/exercise/thread/src/main/java/thread&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "openjdk-17",
+    "last_opened_file_path": "/Users/kuan/Code/Exercise/exercise/thread/src/main/java/thread",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/thread/src/main/java/thread" />
@@ -70,13 +68,13 @@
       <recent name="$PROJECT_DIR$/lectcode/src/main/java/org/brightk" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.TestKt">
-    <configuration name="Single" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_9.Single" />
+  <component name="RunManager" selected="Application.Test">
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.handler.Test" />
       <module name="exercise.thread.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="thread.chapter_9.*" />
+          <option name="PATTERN" value="thread.handler.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
         <item itemvalue="Kotlin.TestKt" />
         <item itemvalue="Kotlin.CountDownLatchKt" />
         <item itemvalue="Kotlin.FlightKt" />
         <item itemvalue="Kotlin.VolatileFooKt" />
-        <item itemvalue="Application.Single" />
       </list>
     </recent_temporary>
   </component>
@@ -134,7 +132,7 @@
       <workItem from="1665706215755" duration="14000" />
       <workItem from="1665706240699" duration="6221000" />
       <workItem from="1665739031079" duration="28424000" />
-      <workItem from="1666144817642" duration="20993000" />
+      <workItem from="1666144817642" duration="25887000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
