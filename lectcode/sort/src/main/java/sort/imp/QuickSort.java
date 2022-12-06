@@ -1,6 +1,8 @@
-package sort;
+package sort.imp;
 
-public class QuickSort  extends Sort{
+import sort.Sort;
+
+public class QuickSort  extends Sort {
 
 
 
