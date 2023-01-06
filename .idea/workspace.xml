@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lectcode/sort/src/main/java/sort/imp/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Handler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Looper.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Looper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Message.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/MessageQueue.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/MessageQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/handler/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +23,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Kotlin Object" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,24 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "jdk.selected.JAVA_MODULE": "openjdk-17",
-    "last_opened_file_path": "/Users/kuan/Code/Exercise/exercise/thread/src/main/java/thread",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
-  }
-}]]></component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/thread/src/main/java/thread" />
@@ -68,7 +61,46 @@
       <recent name="$PROJECT_DIR$/lectcode/src/main/java/org/brightk" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.MergeSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.imp.BubbleSort" />
+      <module name="exercise.lectcode.sort.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.imp.InsertSort" />
+      <module name="exercise.lectcode.sort.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.imp.MergeSort" />
+      <module name="exercise.lectcode.sort.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.handler.Test" />
       <module name="exercise.thread.main" />
@@ -82,20 +114,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_23.CountDownLatchKt" />
-      <module name="exercise.thread.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FlightKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_16.FlightKt" />
-      <module name="exercise.thread.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="thread.chapter_17.use.TestKt" />
       <module name="exercise.thread.main" />
@@ -103,20 +121,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileFooKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_12.VolatileFooKt" />
-      <module name="exercise.thread.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Kotlin.TestKt" />
-        <item itemvalue="Kotlin.CountDownLatchKt" />
-        <item itemvalue="Kotlin.FlightKt" />
-        <item itemvalue="Kotlin.VolatileFooKt" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +144,9 @@
       <workItem from="1665706240699" duration="6221000" />
       <workItem from="1665739031079" duration="28424000" />
       <workItem from="1666144817642" duration="25887000" />
+      <workItem from="1670310110397" duration="3860000" />
+      <workItem from="1671502897878" duration="456000" />
+      <workItem from="1672973231883" duration="3191000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
@@ -155,16 +169,43 @@
       <option name="project" value="LOCAL" />
       <updated>1665819774513</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="添加冒泡排序">
+      <created>1670330932303</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670330932303</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增插入排序">
+      <created>1671503043473</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1671503043473</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="添加 readMe 文件" />
     <MESSAGE value="join 例子加强" />
-    <option name="LAST_COMMIT_MESSAGE" value="join 例子加强" />
+    <MESSAGE value="添加冒泡排序" />
+    <MESSAGE value="新增插入排序" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增插入排序" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
