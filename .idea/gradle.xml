@@ -10,8 +10,9 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DesignMode" />
             <option value="$PROJECT_DIR$/lectcode" />
-            <option value="$PROJECT_DIR$/lectcode/sort" />
+            <option value="$PROJECT_DIR$/sort" />
             <option value="$PROJECT_DIR$/thread" />
           </set>
         </option>
