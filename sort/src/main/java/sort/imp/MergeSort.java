@@ -2,52 +2,55 @@ package sort.imp;
 
 import sort.Sort;
 
+/**
+ * 左闭右闭，可以减少麻烦;
+ * 这个其实很简答，没啥可以说的，关键是一路归并的逻辑
+ */
 public class MergeSort extends Sort {
     @Override
     public void sort(int[] input) {
-        int[] assist = new int[input.length];
-        internalSort(input,0,input.length-1,assist);
+        int[] temp = new int[input.length];
+        internalMergeSort(input,temp,0,input.length-1);
     }
-    private void internalSort(int[] input,int left,int right, int[] assist){
+    private void internalMergeSort(int[] input,int[] temp,int left,int right){
         if (left < right){
             int middle = (left + right)/2;
-            internalSort(input,left,middle,assist);
-            internalSort(input,middle+1,right,assist);
-            merge(input,left,middle,right,assist);
+            internalMergeSort(input,temp,left,middle);
+            internalMergeSort(input,temp,middle+1,right);
+            merge(input,temp,left,middle,right);
         }
     }
-    private void merge(int[] input ,int left,int middle,int right, int[] assist){
+    private void merge(int[] input,int[] temp,int left,int middle,int right){
         int i = left;
-        int j = middle +1;
-        int temp = i;
+        int j =  middle + 1;
+        int tempIndex = i;
         while (i <= middle && j <= right){
             if (input[i] < input[j]){
-                assist[temp] = input[i];
+                temp[tempIndex] = input[i];
                 i++;
             }else {
-                assist[temp] = input[j];
+                temp[tempIndex] = input[j];
                 j++;
             }
-            temp++;
+            tempIndex ++;
         }
-        // 复制左边
         while (i <= middle){
-            assist[temp] = input[i];
-            temp++;
+            temp[tempIndex] = input[i];
             i++;
+            tempIndex++;
         }
-        // 复制右边
         while (j <= right){
-            assist[temp] = input[j];
-            temp++;
+            temp[tempIndex] = input[j];
             j++;
+            tempIndex++;
         }
         // 将数据复制回去
-        for (int c = left; c<= right ;c++){
-            input[c] = assist[c];
+        for (int c = left; c <= right ;c++){
+            input[c] = temp[c];
         }
     }
-    public static void main(String[] args){
+
+    public static void main(String[] args) {
         new MergeSort().sort(input);
         count(input);
     }

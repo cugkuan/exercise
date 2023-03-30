@@ -2,13 +2,16 @@ package sort.imp;
 
 import sort.Sort;
 
+/**
+ * 扑克牌的思想
+ */
 public class InsertSort extends Sort {
     @Override
     public void sort(int[] input) {
-        for (int i = 0;i < input.length ;i++){
-            var k  = getMax(i,input);
-            if (k != i){
-                swap(input,i,k);
+        for (int i = 0;i < input.length;i++){
+            int index = getMax(i,input);
+            if (index != i){
+                swap(input,index,i);
             }
         }
     }

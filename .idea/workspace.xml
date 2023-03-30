@@ -4,29 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/DesignMode/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignMode/src/main/java/proxy/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignMode/src/main/java/proxy/HelloInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignMode/src/main/java/proxy/HelloProxy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DesignMode/src/main/java/proxy/ProxyHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_3/Join2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_3/ThreadInter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_3/ThreadInter2.kt" afterDir="false" />
+    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/sort/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/sort/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/sort/src/main/java/sort/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/sort/src/main/java/sort/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/Sort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/sort/src/main/java/sort/imp/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/sort/src/main/java/sort/imp/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/sort/src/main/java/sort/imp/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/sort/src/main/java/sort/imp/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lectcode/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/sort/imp/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/sort/imp/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/InsertSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/sort/imp/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sort/src/main/java/sort/imp/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/thread/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/thread/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_3/Interrupt.kt" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_3/Interrupt.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_23/CountDownLatch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_23/CountDownLatch.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +113,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/thread/src/main/java/thread/chapter_3" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -133,7 +123,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="advanced.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -149,37 +139,72 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.JoinKt">
-    <configuration name="ExampleKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_3.ExampleKt" />
-      <module name="exercise.thread.main" />
+  <component name="RunManager" selected="Application.QuickSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.imp.BubbleSort" />
+      <module name="exercise.sort.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Join2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_3.Join2Kt" />
-      <module name="exercise.thread.main" />
+    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.imp.InsertSort" />
+      <module name="exercise.sort.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JoinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_3.JoinKt" />
-      <module name="exercise.thread.main" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.imp.MergeSort" />
+      <module name="exercise.sort.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInter2Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_3.ThreadInter2Kt" />
-      <module name="exercise.thread.main" />
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sort.imp.QuickSort" />
+      <module name="exercise.sort.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sort.imp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadInterKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_3.ThreadInterKt" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="thread.chapter_23.CountDownLatchKt" />
       <module name="exercise.thread.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +212,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.JoinKt" />
-        <item itemvalue="Kotlin.Join2Kt" />
-        <item itemvalue="Kotlin.ThreadInter2Kt" />
-        <item itemvalue="Kotlin.ThreadInterKt" />
-        <item itemvalue="Kotlin.ExampleKt" />
+        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.InsertSort" />
+        <item itemvalue="Kotlin.CountDownLatchKt" />
+        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -218,6 +243,9 @@
       <workItem from="1678089241182" duration="761000" />
       <workItem from="1678090136305" duration="397000" />
       <workItem from="1678090552636" duration="4639000" />
+      <workItem from="1679055723944" duration="1619000" />
+      <workItem from="1679106979278" duration="2758000" />
+      <workItem from="1679364436493" duration="26360000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
@@ -266,6 +294,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -2,54 +2,49 @@ package sort.imp;
 
 import sort.Sort;
 
-public class QuickSort  extends Sort {
-
-
-
-
+/**
+ * 注意，先右边，再左边
+ * 注意一些细节问题
+ */
+public class QuickSort extends Sort {
     @Override
     public void sort(int[] input) {
-        internalQuickSort(input,0,input.length -1);
+        internalQuickSort(input, 0, input.length - 1);
     }
+
     /**
-     * 其中注意一趟的思想
+     * 左闭右闭，减少复杂度
+     *
      * @param input
      * @param left
      * @param right
      */
-    private  void internalQuickSort(int[] input,int left,int right ){
+    private void internalQuickSort(int[] input, int left, int right) {
         if (left < right) {
-            int flag = input[left];
+            int key = input[left];
             int i = left;
             int j = right;
             while (i < j) {
-                while (i < j && input[j] >= flag) {
+                while (i < j && input[j] > key) {
                     j--;
                 }
-                while (i < j && input[i] < flag) {
+                while (i < j && input[i] < key) {
                     i++;
                 }
-                // 特别注意
-                if (input[i] == input[j] && i < j) {
-                    i++;
+                // 下面这行代码关键
+                if (input[i] == input[j]) {
+                    j--;
                 } else {
-                    swap(input,i, j);
+                    swap(input, i, j);
                 }
             }
-            count(input);
-            System.out.println("\n");
-            System.out.println("i:"+i +"  "+"j:"+j);
             internalQuickSort(input, left, i);
-            internalQuickSort(input, i+1, right);
+            internalQuickSort(input, i + 1, right);
         }
     }
 
-
-    public static void main(String[] args){
-
-
+    public static void main(String[] args) {
         new QuickSort().sort(input);
-//        mergeSort(input);
         count(input);
 
 

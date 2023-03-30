@@ -31,7 +31,7 @@ class CountDownLatch(override var limit: Int) :Latch(limit){
             synchronized(lock){
                 while (limit > 0){
                     if (TimeUnit.NANOSECONDS.toMillis(remain) <=0){
-                        throw java.lang.RuntimeException("曹氏好的结合实际啊哈")
+                        throw java.lang.RuntimeException("超时了.....")
                     }
                     lock.wait()
                     remain = end - System.nanoTime()
