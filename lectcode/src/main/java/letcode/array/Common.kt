@@ -1,39 +1,31 @@
 package letcode.array
 
-
+import letcode.count
 /**
  * https://leetcode.cn/problems/remove-duplicates-from-sorted-array/
  */
 fun removeDuplicates(nums: IntArray): IntArray {
-
-    var i=  -1
-    for (j in nums.indices) {
-        if (i == -1){
-            i = 0
-        }else if (nums[i] != nums[j]){
-            i++
+    var i = 0
+    for (j in 1 until  nums.size){
+        if (nums[i] != nums[j]){
+            i++;
             nums[i] = nums[j]
         }
     }
-    return  nums
-
+    return  nums.copyOfRange(0,i+1)
 }
-
 /**
- * 其实就是二分查找法
  * https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/submissions/
  */
 fun twoSum(numbers: IntArray, target: Int): IntArray {
-    var left = 0
-    var right  = numbers.size -1
-    while (left < right ){
-        val  value = numbers[left] +numbers[right]
-        if (value < target){
-            left ++
-        }else if (value == target){
-            return intArrayOf(left+1,right+1)
-        }else{
-            right --
+    var i = 0
+    var j = numbers.size  -1
+    while (i < j){
+        val sum = numbers[i] + numbers[j]
+        when {
+            sum < target -> i++
+            target == sum -> return intArrayOf(i,j)
+            else -> j--
         }
     }
     return intArrayOf()
@@ -42,9 +34,11 @@ fun twoSum(numbers: IntArray, target: Int): IntArray {
 
 fun main(){
 
-    val nums = intArrayOf(5,25,75)
+//    val nums = intArrayOf(0,0,1,1,1,2,2,3,3,4)
+//    count(removeDuplicates(nums))
 
- //   println( twoSum(nums,100))
-    println( twoSum(intArrayOf(2,7,11,15),9))
+    val nums = intArrayOf(5,25,75)
+    count( twoSum(nums,100))
+    count( twoSum(intArrayOf(2,7,11,15),9))
 
 }
