@@ -4,18 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Changes">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Modify(两个算法题)：移除重复数，二个数之和">
+      <change afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/dp/README.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/lectcode/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/src/main/java/sort/imp/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/src/main/java/sort/imp/InsertSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/InsertSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/src/main/java/sort/imp/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sort/src/main/java/sort/imp/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/sort/src/main/java/sort/imp/QuickSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/thread/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_23/CountDownLatch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/thread/src/main/java/thread/chapter_23/CountDownLatch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/dp/Fib.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/list/LinkedLists.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/list/ListNode.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/list/Reversal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/tree/LetCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/tree/LetCode.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,13 +135,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.imp.BubbleSort" />
-      <module name="exercise.sort.main" />
+  <component name="RunManager" selected="Application.Fib">
+    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.dp.Fib" />
+      <module name="exercise.lectcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.imp.*" />
+          <option name="PATTERN" value="letcode.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,25 +149,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InsertSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.imp.InsertSort" />
-      <module name="exercise.sort.main" />
+    <configuration name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.backtrack.NQueen" />
+      <module name="exercise.lectcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.imp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.imp.MergeSort" />
-      <module name="exercise.sort.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sort.imp.*" />
+          <option name="PATTERN" value="letcode.backtrack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -192,31 +175,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
+    <configuration name="BackTrackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.backtrack.BackTrackKt" />
+      <module name="exercise.lectcode.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountDownLatchKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="thread.chapter_23.CountDownLatchKt" />
-      <module name="exercise.thread.main" />
+    <configuration name="CommonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.array.CommonKt" />
+      <module name="exercise.lectcode.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Fib" />
+        <item itemvalue="Application.NQueen" />
+        <item itemvalue="Kotlin.BackTrackKt" />
+        <item itemvalue="Kotlin.CommonKt" />
         <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.InsertSort" />
-        <item itemvalue="Kotlin.CountDownLatchKt" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +224,7 @@
       <workItem from="1678090552636" duration="4639000" />
       <workItem from="1679055723944" duration="1619000" />
       <workItem from="1679106979278" duration="2758000" />
-      <workItem from="1679364436493" duration="26360000" />
+      <workItem from="1679364436493" duration="56216000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
@@ -289,7 +268,28 @@
       <option name="project" value="LOCAL" />
       <updated>1672977595513</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Modify(排序算法)：算法排序">
+      <created>1680162407359</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680162407359</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Modify(两个算法题)：移除重复数，二个数之和">
+      <created>1680243980579</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1680243980579</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Modify(回溯算法)：回溯算法整理">
+      <created>1680327504032</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1680327504032</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,7 +323,10 @@
     <MESSAGE value="添加冒泡排序" />
     <MESSAGE value="新增插入排序" />
     <MESSAGE value="新增归并排序，归并排序需要额外的空间" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增归并排序，归并排序需要额外的空间" />
+    <MESSAGE value="Modify(排序算法)：算法排序" />
+    <MESSAGE value="Modify(两个算法题)：移除重复数，二个数之和" />
+    <MESSAGE value="Modify(回溯算法)：回溯算法整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify(回溯算法)：回溯算法整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -362,6 +365,41 @@
           <url>file://$PROJECT_DIR$/thread/src/main/java/thread/chapter_5/Lock.kt</url>
           <line>89</line>
           <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/array/Common.kt</url>
+          <line>26</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/array/Common.kt</url>
+          <line>25</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/array/Common.kt</url>
+          <line>24</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/backtrack/NQueen.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/backtrack/NQueen.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/backtrack/NQueen.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/backtrack/NQueen.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="29" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
