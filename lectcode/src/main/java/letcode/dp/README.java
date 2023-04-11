@@ -11,34 +11,20 @@ package letcode.dp;
 // 注意这个典型的示例
 
 class Fib{
-    private int n;
-    private int[] dp;
-    public Fib(int n){
-        this.n = n;
-        this.dp = new int[n+1];
-        for (int i = 0; i <=n ;i++){
-            dp[i] = 0;
-        }
-    }
-    public int exc(){
-        return fib(n);
-    }
-    private int fib(int  i){
-        if (i == 0 || i == 1) {
-            dp[i] = i;
-            return i;
-        }else {
-            if (dp[i] != 0){
-                return dp[i];
-            }else {
-                return fib(i-1) + fib(i-2);
+    public int fib(int n){
+        int[] dp = new int[n+1];
+        dp[0] = 0;
+        dp[1] = 1;
+        if (n >1){
+            for (int i = 2; i <=n ;i++){
+                dp[i] = dp[i-1] +dp[i-2];
             }
         }
+        return dp[n];
     }
 
     public static void main(String[] args){
-        int value = new Fib(4).exc();
-        System.out.println(value);
+        System.out.println(new Fib().fib(4));
 
     }
 }
