@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Modify(数组)：二分查找">
-      <change afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/linked/Linked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/linked/Overturn.java" afterDir="false" />
+    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Modify(链表)：链表翻转">
+      <change afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/linked/DetectedCycle.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,9 +130,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Overturn">
-    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letcode.dp.CoinChange" />
+  <component name="RunManager" selected="Application.DetectedCycle">
+    <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.dp.CoinChange2" />
       <module name="exercise.lectcode.main" />
       <extension name="coverage">
         <pattern>
@@ -145,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letcode.dp.CoinChange2" />
+    <configuration name="DetectedCycle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.linked.DetectedCycle" />
       <module name="exercise.lectcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="letcode.dp.*" />
+          <option name="PATTERN" value="letcode.linked.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,11 +209,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DetectedCycle" />
         <item itemvalue="Application.Overturn" />
         <item itemvalue="Application.MiddleSearch" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.CoinChange2" />
-        <item itemvalue="Application.CoinChange" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +244,7 @@
       <workItem from="1679106979278" duration="2758000" />
       <workItem from="1679364436493" duration="56216000" />
       <workItem from="1680760813987" duration="18953000" />
-      <workItem from="1681091975110" duration="37986000" />
+      <workItem from="1681091975110" duration="41462000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
@@ -338,7 +337,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681782174021</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Modify(链表)：链表翻转">
+      <created>1681797061699</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1681797061699</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +385,8 @@
     <MESSAGE value="Modify(动态规划)：硬币兑换" />
     <MESSAGE value="Modify(动态规划)：代码进行整理" />
     <MESSAGE value="Modify(数组)：二分查找" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify(数组)：二分查找" />
+    <MESSAGE value="Modify(链表)：链表翻转" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify(链表)：链表翻转" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
