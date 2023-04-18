@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Modify(链表)：循环链表问题，重点是处理相遇点的问题">
-      <change afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/hash/Anagram.java" afterDir="false" />
+    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Modify(哈希表)：异位词，算法很巧妙">
+      <change afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/hash/TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/Utils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/Utils.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -130,7 +131,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Anagram">
+  <component name="RunManager" selected="Application.TwoSum">
     <configuration name="Anagram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="letcode.hash.Anagram" />
       <module name="exercise.lectcode.main" />
@@ -150,19 +151,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="letcode.linked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.brightk.Main" />
-      <module name="exercise.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.brightk.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,6 +184,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TwoSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.hash.TwoSum" />
+      <module name="exercise.lectcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="letcode.hash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -209,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoSum" />
         <item itemvalue="Application.Anagram" />
         <item itemvalue="Application.DetectedCycle" />
         <item itemvalue="Application.Overturn" />
         <item itemvalue="Application.MiddleSearch" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -244,7 +245,7 @@
       <workItem from="1679106979278" duration="2758000" />
       <workItem from="1679364436493" duration="56216000" />
       <workItem from="1680760813987" duration="18953000" />
-      <workItem from="1681091975110" duration="44707000" />
+      <workItem from="1681091975110" duration="46832000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
@@ -351,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681803423326</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Modify(哈希表)：异位词，算法很巧妙">
+      <created>1681807077180</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1681807077180</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -394,7 +402,8 @@
     <MESSAGE value="Modify(数组)：二分查找" />
     <MESSAGE value="Modify(链表)：链表翻转" />
     <MESSAGE value="Modify(链表)：循环链表问题，重点是处理相遇点的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify(链表)：循环链表问题，重点是处理相遇点的问题" />
+    <MESSAGE value="Modify(哈希表)：异位词，算法很巧妙" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify(哈希表)：异位词，算法很巧妙" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
