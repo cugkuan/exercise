@@ -4,14 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Modify(两个算法题)：移除重复数，二个数之和">
-      <change afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/dp/README.java" afterDir="false" />
+    <list default="true" id="f5c43a38-6287-4ab6-9a65-d09dd5ad8177" name="Changes" comment="Modify(动态规划)：移除重复数，二个数之和">
+      <change afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/array/MiddleSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/brightk/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/dp/Fib.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/backtrack/BackTrack.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/backtrack/README.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/dp/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/dp/Bag.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/list/LinkedLists.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/list/ListNode.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/list/Reversal.kt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/lectcode/src/main/java/letcode/tree/LetCode.kt" beforeDir="false" afterPath="$PROJECT_DIR$/lectcode/src/main/java/letcode/tree/LetCode.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/brightk/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/brightk/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,8 +82,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Object" />
-        <option value="Class" />
         <option value="Kotlin Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,9 +138,9 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fib">
-    <configuration name="Fib" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letcode.dp.Fib" />
+  <component name="RunManager" selected="Application.MiddleSearch">
+    <configuration name="Bag" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.dp.Bag" />
       <module name="exercise.lectcode.main" />
       <extension name="coverage">
         <pattern>
@@ -149,12 +152,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letcode.backtrack.NQueen" />
+    <configuration name="CoinChange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.dp.CoinChange" />
       <module name="exercise.lectcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="letcode.backtrack.*" />
+          <option name="PATTERN" value="letcode.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +165,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sort.imp.QuickSort" />
-      <module name="exercise.sort.main" />
+    <configuration name="CoinChange2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.dp.CoinChange2" />
+      <module name="exercise.lectcode.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="sort.imp.*" />
+          <option name="PATTERN" value="letcode.dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,27 +178,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BackTrackKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letcode.backtrack.BackTrackKt" />
-      <module name="exercise.lectcode.main" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.brightk.Main" />
+      <module name="exercise.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.brightk.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CommonKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="letcode.array.CommonKt" />
+    <configuration name="MiddleSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="letcode.array.MiddleSearch" />
       <module name="exercise.lectcode.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="letcode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Fib" />
-        <item itemvalue="Application.NQueen" />
-        <item itemvalue="Kotlin.BackTrackKt" />
-        <item itemvalue="Kotlin.CommonKt" />
-        <item itemvalue="Application.QuickSort" />
+        <item itemvalue="Application.MiddleSearch" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CoinChange2" />
+        <item itemvalue="Application.CoinChange" />
+        <item itemvalue="Application.Bag" />
       </list>
     </recent_temporary>
   </component>
@@ -225,6 +251,8 @@
       <workItem from="1679055723944" duration="1619000" />
       <workItem from="1679106979278" duration="2758000" />
       <workItem from="1679364436493" duration="56216000" />
+      <workItem from="1680760813987" duration="18953000" />
+      <workItem from="1681091975110" duration="30081000" />
     </task>
     <task id="LOCAL-00001" summary="添加 readMe 文件">
       <created>1665714038221</created>
@@ -289,7 +317,28 @@
       <option name="project" value="LOCAL" />
       <updated>1680327504032</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Modify(动态规划)：Fib 算法，动态规划算法入门">
+      <created>1680761008336</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1680761008336</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Modify(动态规划)：硬币兑换">
+      <created>1680859487954</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1680859487954</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Modify(动态规划)：代码进行整理">
+      <created>1681203262349</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681203262350</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -326,7 +375,10 @@
     <MESSAGE value="Modify(排序算法)：算法排序" />
     <MESSAGE value="Modify(两个算法题)：移除重复数，二个数之和" />
     <MESSAGE value="Modify(回溯算法)：回溯算法整理" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify(回溯算法)：回溯算法整理" />
+    <MESSAGE value="Modify(动态规划)：Fib 算法，动态规划算法入门" />
+    <MESSAGE value="Modify(动态规划)：硬币兑换" />
+    <MESSAGE value="Modify(动态规划)：代码进行整理" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modify(动态规划)：代码进行整理" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -366,21 +418,6 @@
           <line>89</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/array/Common.kt</url>
-          <line>26</line>
-          <option name="timeStamp" value="14" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/array/Common.kt</url>
-          <line>25</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="kotlin-line">
-          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/array/Common.kt</url>
-          <line>24</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/backtrack/NQueen.java</url>
           <line>72</line>
@@ -400,6 +437,16 @@
           <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/backtrack/NQueen.java</url>
           <line>70</line>
           <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/brightk/Main.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/lectcode/src/main/java/letcode/dp/Bag.java</url>
+          <line>62</line>
+          <option name="timeStamp" value="33" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

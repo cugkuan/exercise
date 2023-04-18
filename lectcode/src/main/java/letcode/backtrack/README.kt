@@ -34,7 +34,7 @@ class SimpleBackTrack {
  * 这个的理解很重要
  * 回溯 就是走回头路的意思，当发现此路不通的时候，就退回来，重新走
  *
- *  下面的代码很简单，但是非常的重要
+ *  下面的代码很简单，但是非常的重要,从已有的路径，推断 可选择的元素
  */
 class OptimizeBackTrack {
     private val track = ArrayList<Int>();
