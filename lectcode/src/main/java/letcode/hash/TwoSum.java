@@ -11,7 +11,9 @@ import letcode.UtilsKt;
 
 import java.util.HashMap;
 /**
- * 这个题放到这里，是因为思想很有意思的
+ * 这个题放到这里，是因为思想很有意思的；
+ *
+ * 四个数之后，也是类似的思想
  */
 public class TwoSum {
 
