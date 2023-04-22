@@ -3,6 +3,7 @@ package letcode.string;
 /**
  * 翻转字符串
  * 翻转单词
+ * 关于多次翻转的问题，包括左旋转字符串
  */
 public class Reversal {
 
