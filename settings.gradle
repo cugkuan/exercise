@@ -3,4 +3,5 @@ include 'lectcode'
 include 'sort'
 include 'thread'
 include 'DesignMode'
+include 'coroutine'
 
