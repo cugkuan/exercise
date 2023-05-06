@@ -63,9 +63,32 @@ fun frontTraversal(node: TreeNode){
     }
 }
 
+/**
+ * 层序遍历
+ */
+fun levelTraversal(node: TreeNode){
+    val queue = LinkedList<TreeNode>()
+    queue.addLast(node)
+    while (queue.isEmpty().not()){
+        var len = queue.size
+        while (len >0){
+            val p = queue.removeFirst()
+            print(p.data)
+            print(',')
+            p.left?.let {
+                queue.addLast(it)
+            }
+            p.right?.let {
+                queue.addLast(it)
+            }
+            len --
+        }
+        println()
+    }
+}
+
 fun main(){
     val node  = createTestNode()
-
     // 5,4,1,2,6,7,8,
     preTraversal(node)
     println()
@@ -73,4 +96,6 @@ fun main(){
     midTraversal(node)
     println()
     frontTraversal(node)
+    println()
+    levelTraversal(node)
 }
