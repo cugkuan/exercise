@@ -10,16 +10,15 @@ public class Overturn {
     }
 
     public void overturn2(Linked node){
-        Linked temp = null;
         Linked pre = null;
         Linked cur = node;
-        while (cur != null){
+        Linked temp = null;
+        while (cur.next != null){
             temp = cur.next;
             cur.next = pre;
             pre = cur;
             cur = temp;
         }
-
         pre.print();
     }
     private Linked turn(Linked pre,Linked current){
