@@ -17,11 +17,30 @@ fun preTraversal(node:TreeNode){
             stack.push(p)
             p  = p.left
         }else{
-            p = stack.pop()
-            p = p.right
+            p = stack.pop().right
         }
     }
 }
+
+/**
+ * 这种方案更为简单
+ */
+fun preTraversal2(node:TreeNode){
+    val stack = Stack<TreeNode>()
+    stack.push(node)
+    while (stack.isEmpty().not()){
+        val p = stack.pop()
+        print(p.data)
+        print(",")
+        p.right?.let {
+            stack.push(it)
+        }
+        p.left?.let {
+            stack.push(it)
+        }
+    }
+}
+
 
 fun midTraversal(node: TreeNode){
     val stack = Stack<TreeNode>()
@@ -90,12 +109,13 @@ fun levelTraversal(node: TreeNode){
 fun main(){
     val node  = createTestNode()
     // 5,4,1,2,6,7,8,
-    preTraversal(node)
-    println()
-    //1;4;2;5;7;6;8;
-    midTraversal(node)
-    println()
-    frontTraversal(node)
-    println()
-    levelTraversal(node)
+    preTraversal2(node)
+//    preTraversal(node)
+//    println()
+//    //1;4;2;5;7;6;8;
+//    midTraversal(node)
+//    println()
+//    frontTraversal(node)
+//    println()
+//    levelTraversal(node)
 }
