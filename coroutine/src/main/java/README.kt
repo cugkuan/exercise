@@ -44,7 +44,7 @@ suspend fun  shareFlow() = runBlocking{
 }
 
 
-suspend fun main(){
+ suspend fun main(){
 
     simple()
         .conflate() // 合并发射项，不对每个值进行处理
