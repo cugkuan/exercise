@@ -4,35 +4,45 @@ import kotlinx.coroutines.flow.*
 import java.util.concurrent.CancellationException
 
 suspend  fun  main() = runBlocking{
-    val channel = Channel<Int>(capacity = Channel.CONFLATED )
-    channel.consumeAsFlow()
-        .flatMapConcat {
-            println("---->$it")
-            send(it)
-        }
-        .flowOn(Dispatchers.IO)
-        .catch {
-            println(it.localizedMessage)
-        }
-        .stateIn(this, SharingStarted.Eagerly,0)
+    val intent = Channel<Int>()
 
-    channel.send(1)
-    delay(500)
+    val stateFlow = MutableStateFlow(0)
     launch {
-        channel.trySend(2)
+        stateFlow.collect {
+            println("消费--->$it")
+        }
     }
-    delay(500)
-    launch {
-        channel.trySend(4)
-    }
-    channel.send(3)
+    val job = intent.consumeAsFlow()
+        .onEach {
+            println("发送==>$it")
+        }
+        .flatMapConcat {
+            sendValue(it)
+        }
+        .onEach {
+
+        }
+        .launchIn(this)
+
+//    launch {
+//        intent.consumeAsFlow().collect {
+//            println("发送==>$it")
+//            sendValue(it)
+//                .onEach {
+//                    stateFlow.emit(it)
+//                }
+//                .launchIn(this)
+//        }
+//    }
+    intent.send(1)
+    delay(100)
+    intent.cancel()
+    intent.send(4)
+    println("---->")
 }
 
-private fun send(v:Int) = flowOf(v).flowOn(Dispatchers.Default)
+private fun sendValue(v:Int) = flowOf(v).flowOn(Dispatchers.Default)
     .onEach {
-        delay(3000)
+       delay(3000)
     }
     .flowOn(Dispatchers.IO)
-    .onEach {
-        println(it)
-    }
