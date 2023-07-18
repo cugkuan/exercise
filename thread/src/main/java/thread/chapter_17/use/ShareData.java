@@ -1,7 +1,6 @@
 package thread.chapter_17.use;
 
 
-import org.w3c.dom.stylesheets.LinkStyle;
 import thread.chapter_17.Lock;
 import thread.chapter_17.ReadWriteLock;
 
