@@ -1,5 +1,9 @@
 package letcode.array;
 
+/**
+ * 1.left <right 和 left <=right 问题
+ * 1. middle = left +(right - left)/2
+ */
 public class MiddleSearch {
     public int search(int[] array,int target){
         int left =0;
