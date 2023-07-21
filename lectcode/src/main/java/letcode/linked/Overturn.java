@@ -4,37 +4,30 @@ package letcode.linked;
  * 链表翻转
  */
 public class Overturn {
-    public void overturn(Linked node){
-        Linked result =  turn2(null,node);
-        result.print();
+
+
+    public  Linked  recursion(Linked current){
+        if (current.next == null){
+            return current;
+        }
+        Linked last = recursion(current.next);
+        current.next.next = current;
+        current.next = null;
+        return last;
     }
 
-    public void overturn2(Linked node){
+    public Linked overturn(Linked node){
         Linked pre = null;
         Linked cur = node;
         Linked temp = null;
-        while (cur.next != null){
+        while (cur != null){
             temp = cur.next;
             cur.next = pre;
             pre = cur;
             cur = temp;
         }
-        pre.print();
+        return pre;
     }
-    private Linked turn(Linked pre,Linked current){
-        if (current == null) return pre;
-        Linked temp = current.next;
-        current.next = pre;
-        return turn(current,temp);
-    }
-    private Linked turn2(Linked current,Linked next){
-        if (next == null) return  current;
-        Linked temp = next.next;
-        next.next = current;
-        return turn2(next,temp);
-
-    }
-
     public static void main(String[] args){
         Linked linked1 = new Linked(1);
         Linked linked2 = new Linked(2);
@@ -45,9 +38,18 @@ public class Overturn {
         linked2.next = linked3;
         linked3.next = linked4;
         linked4.next = linked5;
+        linked5.next = null;
         linked1.print();
       //  new Overturn().overturn(linked1);
-        new Overturn().overturn2(linked1);
+
+        Overturn overturn = new Overturn();
+        Linked node =  overturn.recursion(linked1);
+        node.print();
+
+         Linked node2 = overturn.overturn(node);
+         node2.print();
+
+     //   new Overturn().overturn2(linked1);
 
         // 进行翻转
 
