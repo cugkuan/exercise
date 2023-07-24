@@ -8,8 +8,6 @@ data class TreeNode(
     var left: TreeNode? = null,
     var right: TreeNode? = null
 )
-
-
 /**
  * 前序遍历方法
  */
