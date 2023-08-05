@@ -1,7 +1,6 @@
 package exercise;
 
 
-import java.sql.SQLSyntaxErrorException;
 import java.util.Arrays;
 import java.util.Scanner;
 
